@@ -24,23 +24,21 @@ An online game where 2 players are matched, and pilot their own space ships and 
 -   stream a soundtrack in background
 
 
-##Spiking tasks:
+## Spiking tasks:
 -   https://trello.com/b/QfHkozPL/space-wars
 
 
+## User Stories 
 
-
-
-
-2 player 2D space shooter game, where your ship follows mouse attempting to destroy other ship
-         
-        MVP: Input player name, server connects you to available player, game mechanics, real time, player wins message
-
-        Tech Stack: Pixi.js (or Phaser),                   Socket.io/WebSocket, JS (mySQL for additional stuff)
-
-        Additional:-Users and stats/scores stores in DB.
-                
-                - if 1 player, fighting against npcs that spawn faster and gravitate towards
-                - appropriate player matching
-
-        Alternative: 1 player vs simple enemies that spawn at faster rates as level increases.
+- As a user, I should see a welcome screen when I visit the site
+- As a user, I can input a player name to be known by for the session
+- As a user, I can see instructions on the starting page that tell me how to play the game
+- As a user, I can press a start button that will initiate player pairing
+- As a user, I am informed that the server is waiting to make a player match before game start.
+- As a user, I have been told the game has begun
+- As a user, I can steer my spaceship, see movement, and the movement is responsive to mouse cursor
+- As a user, I can mouse click to fire a weapon and see the direction of my fire
+- As a user, I can see when I have inflicted damage and received damage, number hit or colour
+- As a user, I can keep track of my and the opponents health
+- As a user, I can see who has won and lost by player names
+- As a user, I can choose to play another game from the win/loss screen
